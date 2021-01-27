@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
+
+// adapter
 class MyAdapter(var myList : ArrayList<MyDataClass>) : RecyclerView.Adapter<MyAdapter.MyViewHolder>(){
 
     class MyViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView) {
